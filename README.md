@@ -1,5 +1,3 @@
----
-
 # a1hul-mcp
 
 **MCP server for extracting content from web pages**
