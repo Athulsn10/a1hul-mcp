@@ -1,5 +1,3 @@
-Here's a clean and professional `README.md` for your `a1hul-mcp` npm package:
-
 ---
 
 # a1hul-mcp
@@ -72,5 +70,3 @@ GitHub: [@athulnair](https://github.com/Athulsn10)
 This project is licensed under the ISC License.
 
 ---
-
-Let me know if you want badges, usage examples, or sample request/response payloads added.
