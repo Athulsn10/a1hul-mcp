@@ -1,6 +1,6 @@
 {
   "name": "a1hul-mcp",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "MCP server for extracting content from web pages",
   "main": "dist/index.js",
   "bin": {
@@ -8,14 +8,22 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "prepublishOnly": "tsc"
   },
-  "keywords": [],
+  "keywords": ["mcp", "web-scraping", "content-extraction"],
   "author": "athul.s.nair",
   "license": "ISC",
+  "files": [
+    "dist/**/*"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "cheerio": "^1.0.0-rc.12",
+    "commander": "^9.4.0",
     "zod": "^3.21.4"
   },
   "devDependencies": {
